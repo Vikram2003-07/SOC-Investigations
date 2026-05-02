@@ -1,0 +1,3 @@
+The alert corresponds to a blocked download of a macro-enabled document (.docm) from the host NicolasPRD (172.16.17.37). The file hash shows a high detection rate on VirusTotal (37/64) and is associated with trojan.sagent/vpnz, indicating a malicious payload likely delivered via phishing.
+Security controls successfully blocked the file before execution, and no Command & Control (C2) communication was observed on the endpoint. This suggests the threat was contained at an early stage with no signs of compromise.
+Final Verdict: True Positive – No further impact detected due to effective prevention.
